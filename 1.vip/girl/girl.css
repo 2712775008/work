@@ -1,0 +1,19 @@
+#banner{overflow: hidden;}
+
+main{height: 2000px;}
+main .rm{margin-bottom:20px;width: 1000px;height: 54px;position: relative;text-align: center;}
+main .rm .rm-l{width: 378px;height: 10px;background-color: #d9d9d9;position: absolute;left: 50%;top: 14px;z-index: 1;margin-left: -190px;}
+main .rm .rm-z{width:160px;height:30px;background:#fff url(img/t1.png) no-repeat center;display: inline-block;padding: 0 20px;position: relative;z-index: 2;}
+main .cloth{width: 998px;height: 305px;border: 1px solid #ff6f8a;margin-bottom: 40px;overflow: hidden;;}
+main .cloth .cloth-l{}
+main .cloth .cloth-l ul{}
+main .cloth .cloth-l ul li{margin-bottom: 1px;cursor: pointer;font:16px/50px "";background: #ff6f8a;width: 143px;height: 50px;text-align: center;position: relative;}
+main .cloth .cloth-l ul li span{color: #fff;}
+main .cloth .cloth-l ul li em{position: absolute;color: #fff;right: 10px;}
+main .cloth .cloth-l ul li.te{background: #fff;}
+main .cloth .cloth-l ul li.te span{color: #ff6f8a;}
+main .cloth .cloth-l ul li.te em{position: absolute;color: #ff6f8a;right: 10px;}
+
+main .cloth .cloth-r{}
+main .cloth .cloth-r ul{}
+main .cloth .cloth-r ul li{width: 20%;height: 152px;float: left;}

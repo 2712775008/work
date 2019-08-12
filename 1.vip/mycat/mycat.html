@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mycat.css" />
+		<script type="text/javascript" src="js/mycat.js"></script>
+		<script type="text/javascript" src="js/jquery.1.12.4.js"></script>
+		<script>
+		    $(function(){
+			      $(".cont1").click(function(){
+						var res=parseInt($(".inp1").val());
+						res=res-1;
+						if(res<=0){
+							$(".layer").show();
+							$(".layer1").show();
+							var res1=1;
+							$(".inp1").val(res1);
+						}else{
+							$(".inp1").val(res);
+						}
+						var res2=parseInt($(".inp1").val())*169;
+			            console.log(res2);
+			            $(".info2 .span3").text(res2+".00");
+						$(".foot .span4").text("￥"+res2+".00");
+			
+		         })
+				$(".cont2").click(function(){
+					var res=parseInt($(".inp1").val());
+					res=res+1;
+					$(".inp1").val(res);
+					var res2=res*169;
+			       console.log(res2);
+			       $(".info2 .span3").text(res2+".00");;
+				   $(".foot .span4").text("￥"+res2+".00");
+					
+				})
+				$("#qued").click(function(){
+					$(".layer").hide();
+					$(".layer1").hide();
+				})
+			   $(".inp1").blur(function(){
+				   if( $(".inp1").val()<=0){
+					$(".layer").show();
+						$(".layer1").show();
+						var res1=1;
+						$(".inp1").val(res1);   
+				   }
+				   var res2=parseInt($(".inp1").val())*169;
+			       console.log(res2);
+			       $(".info2 .span3").text(res2+".00");;
+				   $(".foot .span4").text("￥"+res2+".00");
+			   })
+			   $(".info2 .a1").click(function(){
+			       $(".info2").text("您的购物车空空如也，赶紧去购物吧！");
+				   $(".foot").hide();
+				   $(".info3").hide();
+			   })
+			   
+             })
+		</script>
+	</head>
+	<body>
+	<div class="mycat">
+	    <div class="header">
+			<img src="img/logo.png" class="kd_logo"/>
+			<img src="img/info.png" class="info"/>
+		</div>
+		<div class="info1">
+		    <input type="checkbox" checked="checked"/><span>全选</span>
+			<span  class="GoodInfo">商品信息</span>
+			<span  class="danj">单价（元）</span>
+			<span>数量</span>
+			<span>总计（元）</span>
+			<span>操作</span>
+		</div>
+		<div class="kefu">
+		    <div class="chek1">
+		        <input type="checkbox" checked="checked"/>
+			</div>
+			<img src="img/good2.png"/>
+		</div>
+		<div class="info2">
+		    <div class="chek2"><input type="checkbox" checked="checked"/></div>
+			<div class="div1"><img src="img/good1.jpg"/></div>
+			<div class="info2_1">
+			     <a href="#">全面屏，全面绽放，支持移动联通电信4G</a></br>
+				 <span>款式:深灰色    </span></br>
+				 <a href="#" class="blue">查看定制信息</a>
+			</div>
+			<span class="span2">169.00</span>
+			 <div class="cont">
+				 <div class="cont1"><a href="javascript:void(0)">-</a></div>
+				 <input style="text" class="inp1" value="1">
+				 <div class="cont2"><a href="javascript:void(0)">+</a></div>
+			 </div>
+		   <span class="span3">169.00</span>
+		   <a href="#" class="a1">删除</a>
+		</div>
+		<div class="foot">
+		       <span><input type="checkbox" checked="checked"/>货到付款</span>
+			   <span>商品金额（不含运费和优惠）：</span>
+			   <span class="span4">￥169.00</span>
+		</div>
+		<div class="info3">
+			  <a href="../index/index.html" class="a2">继续购物</a>
+			 <div class="jies"><a href="#" class="a2">去结算</a></div>
+	</div>
+	<div class="layer"></div>
+	    <div class="layer1">
+		   <span>提示</span>
+		   <p>购买件数不能少于1件！</p>
+		   <input type="button" value="确定" id="qued"/>
+		</div>
+	</body>
+</html>

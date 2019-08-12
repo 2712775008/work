@@ -1,0 +1,103 @@
+[
+	{
+		        "name":"【小S同款 平价防晒】",
+		        "price":"79",
+		        "url":"img/t2.4.jpg",	            
+				"goodsId":"asdsjg",
+				"del":"867",
+				"sale":"0.9",
+				"per":"82%",
+				"logo":"img/t2.6.png"
+	},
+	{
+	           "name":"【牛奶果粒 好乐趣】",
+	           "price":"56",
+	           "url":"img/t3.1.jpg",
+		       "goodsId":"aassdd",
+	           "del":"86",
+			   "sale":"6.5",
+			   "per":"82%",
+			   "logo":"img/t3.2.png"
+	},
+	{
+	            "name":"【每日坚果 营养均衡】",
+	            "price":"39",
+	            "url":"img/t3.3.jpg",
+		  	    "goodsId":"aa1s23123sd",
+	            "del":"299",
+				"sale":"1.3",
+				"per":"56%",
+				"logo":"img/t3.4.png"
+	},
+	{
+	            "name":"【口碑爆款 性价比之王】",
+	            "price":"99",
+	            "url":"img/t3.5.jpg",
+	      		"goodsId":"a12s3asd",
+	            "del":"500",
+				"sale":"2",
+				"per":"46%",
+				"logo":"img/t3.6.png"
+	},
+	{       
+	            "name":"【轻薄无瑕 裸感自然】",
+	            "price":"55",
+	            "url":"img/t3.7.jpg",
+				"goodsId":"aa4d5sd",
+	            "del":"119",
+				"sale":"4.6",
+				"per":"91%",
+				"logo":"img/t3.8.png"
+	},
+	{
+	            "name":"【牛奶果粒 好乐趣】",
+	            "price":"56",
+	            "url":"img/t3.1.jpg",
+				"goodsId":"aasdfa",
+	            "del":"86",
+				"sale":"6.5",
+				"per":"82%",
+				"logo":"img/t3.2.png"
+	},
+	{
+	            "name":"【每日坚果 营养均衡】",
+	            "price":"39",
+	            "url":"img/t3.3.jpg",
+				"goodsId":"aa123123sd",
+	            "del":"299",
+				"sale":"1.3",
+				"per":"56%",
+				"logo":"img/t3.4.png"
+	},
+	{
+	            "name":"【口碑爆款 性价比之王】",
+	            "price":"99",
+	            "url":"img/t3.5.jpg",
+				"goodsId":"a123asd",
+	            "del":"500",
+				"sale":"2",
+				"per":"46%",
+				"logo":"img/t3.6.png"
+	},
+	{       
+	            "name":"【轻薄无瑕 裸感自然】",
+	            "price":"55",
+	            "url":"img/t3.7.jpg",
+				"goodsId":"aa45sfd",
+	            "del":"119",
+				"sale":"4.6",
+				"per":"91%",
+				"logo":"img/t3.8.png"
+	},
+	{       
+	            "name":"【鲜生活 量贩33袋装】",
+	            "price":"96",
+	            "url":"img/t3.9.jpg",
+				"goodsId":"aa45sfda",
+	            "del":"119",
+				"sale":"4.6",
+				"per":"91%",
+				"logo":"img/t3.10.png"
+	}
+	
+]

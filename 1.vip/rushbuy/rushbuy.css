@@ -1,0 +1,36 @@
+#banner{width:1280px;height: 360px;}
+#banner img{margin: 0 auto;}
+.mar{width: 1200px;margin: 0 auto;}
+
+main{margin-top: 120px;}
+main .tem{width: 1000px;margin: 0 auto;}
+main ul{display: flex;justify-content: space-between;flex-wrap: wrap;}
+main ul li.te{width: 570px;box-shadow: 0 0 40px #ccc ;position: relative;margin-bottom: 30px;}
+main ul li{width: 570px;position: relative;margin-bottom: 30px;}
+main ul li .res{}
+main ul li .res .m1{width: 570px;height:273px;}
+main ul li .res .m2{margin-top: 10px;}
+main ul li .res i.n{background: url(img/newp.png) no-repeat;position: absolute;width: 54px;height: 54px;right: 10px;top: 0;}
+main ul li .res .newp{position: relative;}
+main ul li .res-b{float:left;width: 175px;height: 230px;background: #fff;position: relative;overflow: hidden;margin-left: 10px;}
+main ul li .res-b img{width: 175px;height:220px;margin-top: 10px;}
+main ul li .res-b p{position:absolute;bottom:0;width: 175px;height: 28px;background:rgba(255,255,255,0.8);}
+main ul li .res-b p span{font:16px/28px "";color: #FA2A83;margin-left: 3px;}
+main ul li .res-b p i{font:12px/28px "";color: #4d4d4d;text-decoration: line-through;margin-left: 3px;}
+main ul li .res-b p s{font:12px/28px "";color: #4d4d4d;margin-left: 3px;}
+main ul li .sale{display:block;height:40px ;width:570px;background: #fff;position: absolute;line-height: 40px;line-height: 40px;bottom: 0;cursor: pointer;}
+main ul li .sale span{margin-left: 10px;font:700 24px/40px "";color:#F10180;margin-right: 3px;}
+main ul li .sale b{font-size: 12px;color: #666;}
+main ul li .sale s{font:14px/40px "";color: #666;}
+
+main ul li.next {width: 374px;position: relative;margin-bottom: 30px;}
+main ul li.next .res{}
+main ul li.next  .res .m1{width: 374px;height:179px;}
+main ul li.next  .res .m3{margin-top: 10px;}
+main ul li.next  .res .newp{position: relative;}
+main ul li.next .sale{display:block;height:40px ;width:374px;background: #fff;position: absolute;line-height: 40px;line-height: 40px;bottom: 0;cursor: pointer;}
+main ul li.next  .sale span{margin-left: 10px;font:700 24px/40px "";color:#F10180;margin-right: 3px;}
+main ul li.next  .sale b{font-size: 12px;color: #666;}
+main ul li.next  .sale s{font:14px/40px "";color: #666;}
+main ul li.next  .sale .time{font:700 12px/40px "";color: #f10180;margin-left: 30px;}
+main ul li.next  .sale .time i{color: #4d4d4d;}

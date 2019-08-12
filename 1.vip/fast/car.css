@@ -1,0 +1,38 @@
+.mycat{width:1000px;height:680px;margin:0 auto;}
+.header{width:1000px;height:60px;}
+.header .kd_logo{float:left;width: 160px;}
+.header .info{float:right;}
+.info1{width:1000px;height:35px;background:#F8F7F7;margin-top:45px;}
+.info1 span{font-size:12px;line-height:35px;color:black;font-weight:bolder;margin-right:112px;}
+.info1 .GoodInfo{margin-right:160px;}
+.info1 .danj{margin-right:60px;}
+.kefu{width:300px;height:44px;margin-left:30px;margin-top:10px;}
+.kefu .chek1{line-height:44px;float:left;}
+.kefu img{margin-left:20px;float:right;}
+.info2{width:1000px;height:112px;border:1px solid #F8F7F7;padding-left:30px;padding-top:18px;}
+.info2 .chek2{line-height:112px;float:left;margin-right:15px;}
+.info2 .div1{width:60px;height:60px;margin-top:35px;float:left;margin-right:20px;}
+.info2 .div1 img{width:60px;height:60px;}
+.info2 .info2_1{width:190px;height:112px;float:left;}
+.info2_1  a{height:36px;text-decoration:none;font-size:12px;color:black;}
+.info2_1  span{height:36px;font-size:12px;color:#999;margin-top:20px;}
+.info2_1  .blue{color:blue;}
+.info2 .span2{width:70px;font-size:12px;float:left;font-weight:bolder;line-height:112px;margin-left:50px;}
+.info2 .cont{width:100px;height:30px;border:1px solid #ededed;float:left;margin-left:27px;margin-top:35px;}
+.cont .cont1,.cont2{width:28px;height:30px;background:#F0F0F0;float:left;text-align:center;line-height:30px;}
+.cont .cont1 a,.cont2 a{text-decoration:none;}
+.cont .cont2{float:right;}
+.cont .inp1{width:40px;height:28px;border:none;outline:none;text-align:center;line-height:30px;}
+.info2 .span3{width:70px;font-size:12px;float:left;font-weight:bolder;line-height:112px;margin-left:80px;color:#F10180;}
+ .del{text-decoration:none;font-size:12px;color:blue;margin-left:110px;display:inline-block;line-height:112px;}
+.foot{width:500px;height:50px;float:right;}
+.foot span{font-size:12px;color:black;line-height:50px;margin-left:30px;width:50px;}
+.foot .span4{font-size:16px;color:#F10180;line-height:50px;font-weight:bolder;}
+.info3{width:300px;height:50px;margin-top:50px;margin-left:700px;line-height:50px;}
+.info3 a{text-decoration:none;font-size:14px;color:#666;float:left;margin-right:20px;}
+.info3 .jies{width:95px;height:50px;background:#F10180;float:left;border-radius:5px;float:right;}
+.info3 .jies a{text-decoration:none;font-size:16px;color:white;font-weight:bolder;margin-left:20px;}
+.layer{width:100%;height:100%;background:black;position:fixed;top:0;left:0;opacity:0.6;display:none;}
+.layer1{width:175px;height:150px;background:#f0f0f0;position:fixed;top:40%;left:45%;padding:10px;border-radius:10px;display:none;}
+.layer1 p{text-align:center;line-height:80px;font-size:14px;}
+.layer1 input{width:57px; height:28px;float:right;margin-bottom:5px;}
